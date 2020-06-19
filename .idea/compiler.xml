@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cloudapicommons" />
+        <module name="cloudconfigcenter3344" />
         <module name="cloudconsumerconsulorder80" />
         <module name="cloudconsumerfeignhystrixorder80" />
         <module name="cloudconsumerfeignorder80" />
