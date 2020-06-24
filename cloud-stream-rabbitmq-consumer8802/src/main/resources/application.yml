@@ -1,0 +1,5 @@
+server:
+  port: 8802
+eureka:
+  client:
+    service-url: http://eureka7001.com:7001/

@@ -9,6 +9,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cloudapicommons" />
         <module name="cloudconfigcenter3344" />
+        <module name="cloudconfigclient3355" />
+        <module name="cloudconfigclient3366" />
         <module name="cloudconsumerconsulorder80" />
         <module name="cloudconsumerfeignhystrixorder80" />
         <module name="cloudconsumerfeignorder80" />
@@ -23,6 +25,8 @@
         <module name="cloudproviderpayment8001" />
         <module name="cloudproviderpayment8002" />
         <module name="cloudproviderpayment8004" />
+        <module name="cloudstreamrabbitmqconsumer8802" />
+        <module name="cloudstreamrabbitmqprovide8801" />
       </profile>
     </annotationProcessing>
   </component>
