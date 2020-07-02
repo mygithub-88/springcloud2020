@@ -7,6 +7,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="cloudalibabaconfignacosclient3377" />
+        <module name="cloudalibabaconsumernacosorder83" />
+        <module name="cloudalibabaproviderpayment9001" />
+        <module name="cloudalibabaproviderpayment9002" />
+        <module name="cloudalibabasentinelservice8401" />
         <module name="cloudapicommons" />
         <module name="cloudconfigcenter3344" />
         <module name="cloudconfigclient3355" />
@@ -26,6 +31,7 @@
         <module name="cloudproviderpayment8002" />
         <module name="cloudproviderpayment8004" />
         <module name="cloudstreamrabbitmqconsumer8802" />
+        <module name="cloudstreamrabbitmqconsumer8803" />
         <module name="cloudstreamrabbitmqprovide8801" />
       </profile>
     </annotationProcessing>

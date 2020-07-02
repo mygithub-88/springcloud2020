@@ -12,6 +12,11 @@
     <artifactId>cloud-stream-rabbitmq-consumer8802</artifactId>
 
     <dependencies>
+        <!--stream rabbit-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-stream-rabbit</artifactId>
+        </dependency>
         <!--eureka-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>

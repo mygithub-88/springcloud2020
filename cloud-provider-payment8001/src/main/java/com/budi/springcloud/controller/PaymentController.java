@@ -78,4 +78,13 @@ public class PaymentController {
         }
         return  serverPort;
     }
+    /**
+     * 以下方法供zipkin学习的时候使用
+     *
+     */
+    @GetMapping("/payment/zipkin")
+    public String paymentZipkin()
+    {
+        return "hello im zipkin ,welcome to zipkin server";
+    }
 }
