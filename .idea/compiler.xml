@@ -9,8 +9,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cloudalibabaconfignacosclient3377" />
         <module name="cloudalibabaconsumernacosorder83" />
+        <module name="cloudalibabaconsumerorder84" />
         <module name="cloudalibabaproviderpayment9001" />
         <module name="cloudalibabaproviderpayment9002" />
+        <module name="cloudalibabaproviderpayment9003" />
+        <module name="cloudalibabaproviderpayment9004" />
         <module name="cloudalibabasentinelservice8401" />
         <module name="cloudapicommons" />
         <module name="cloudconfigcenter3344" />
@@ -33,6 +36,9 @@
         <module name="cloudstreamrabbitmqconsumer8802" />
         <module name="cloudstreamrabbitmqconsumer8803" />
         <module name="cloudstreamrabbitmqprovide8801" />
+        <module name="seataaccountservice2003" />
+        <module name="seataorderservice2001" />
+        <module name="seatastorageservice2002" />
       </profile>
     </annotationProcessing>
   </component>
