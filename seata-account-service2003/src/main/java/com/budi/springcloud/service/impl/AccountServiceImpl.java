@@ -17,6 +17,12 @@ public class AccountServiceImpl implements AccountService {
     @Override
     public void decrease(Long userId, BigDecimal money) {
         log.info("-------->扣减金额开始");
+        //测试超时异常发生的情况 在不加@globaltranstion
+        /*try {
+            Thread.sleep(20000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }*/
         accountDao.decrease(userId,money);
         log.info("----------->扣减金额结束");
     }
