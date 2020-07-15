@@ -51,7 +51,7 @@ public class FlowLimitController {
     {
         return "test Hot key";
     }
-    public String deal_testHotKey(String p1, String p2, BlockException exception)
+    public String deal_testHotKey(String p1, String p2, BlockException  exception)
     {
         return "deal_testHotKey";
     }
