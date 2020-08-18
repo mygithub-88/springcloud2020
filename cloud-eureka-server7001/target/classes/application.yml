@@ -4,7 +4,7 @@ server:
 eureka:
   instance:
     #hostname: localhost #eureka服务端的实例名称 #以前单机版
-    hostname: eureka7001.com #集群升级版
+    hostname: localhost #集群升级版
   client:
     # false表示不向注册中心注册自己
     register-with-eureka: false
@@ -14,7 +14,7 @@ eureka:
     service-url:
       #以前单机版
       #defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
-      defaultZone: http://eureka7001.com:7001/eureka/
+      defaultZone: http://localhost:7001/eureka/
       # 集群升级版
       #defaultZone: http://eureka7002.com:7002/eureka/
 

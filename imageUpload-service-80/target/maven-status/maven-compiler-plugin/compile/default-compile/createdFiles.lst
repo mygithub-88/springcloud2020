@@ -1,0 +1,6 @@
+com\budi\ImageUploadMain80.class
+com\budi\service\impl\BudiImageServiceImpl.class
+com\budi\service\BudiImageService.class
+com\budi\dao\BudiImageDao.class
+com\budi\controller\ImageUploadController.class
+com\budi\domain\BudiImage.class

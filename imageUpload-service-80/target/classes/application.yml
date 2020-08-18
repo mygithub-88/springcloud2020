@@ -1,0 +1,23 @@
+server:
+  port: 8090
+web:
+  upload-path: F:/imagedata/
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka/
+spring:
+  application:
+    name: imageupload-service-80
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: org.gjt.mm.mysql.Driver  #mysql驱动包
+    url: jdbc:mysql://172.16.20.41:3306/imagetest?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: root
+    password: root123456
+
+  resources:
+    static-locations: classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/,classpath:/public/,file:${web.upload-path}
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.budi.domain

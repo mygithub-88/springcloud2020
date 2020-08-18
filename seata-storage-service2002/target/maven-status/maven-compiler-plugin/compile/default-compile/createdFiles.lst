@@ -1,0 +1,9 @@
+com\budi\springcloud\SeataStorageServieAppMain2002.class
+com\budi\springcloud\dao\StorageDao.class
+com\budi\springcloud\config\MyBatisConfig.class
+com\budi\springcloud\service\StorageService.class
+com\budi\springcloud\controller\StorageController.class
+com\budi\springcloud\domain\CommResult.class
+com\budi\springcloud\config\DataSourceProxyConfig.class
+com\budi\springcloud\service\impl\StorageServiceImpl.class
+com\budi\springcloud\domain\Storage.class
